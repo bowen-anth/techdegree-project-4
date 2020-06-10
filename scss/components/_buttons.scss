@@ -6,10 +6,14 @@
   margin-top: 15px;
   width: 100%;
   color: #fff;
+  color-background: $color-button; /* exceeds hover effect */
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  &:hover {
+    color: $color-light;          /* exceeds hover effect */
+  }
 }
 
 .default {

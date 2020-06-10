@@ -6,6 +6,8 @@ $color-link: orange;
 $color-pink: pink;
 $nav-hover: yellow;
 $color-black: black;
+$color-button: #B517DF;
+$color-light: lighten($color-button, 15%);
 
 
 $color-text: #343434;
@@ -17,5 +19,6 @@ $font-stack-secondary: 'Bree Serif', serif;
 
 //  Media Query Breakpoints
 
+$brkpoint-sm : 768px;
 $break-narrow : '(max-width: 768px)';
 $break-wide : '(max-width: 1024px)';
