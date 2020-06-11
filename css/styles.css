@@ -360,18 +360,20 @@ a {
   margin-top: 15px;
   width: 100%;
   color: #fff;
-  color-background: #B517DF;
-  /* exceeds hover effect */
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
-  border-radius: 5px; }
+  border-radius: 5px;
+  transition: background-color .2s ease-in-out,  color .2s ease-in-out; }
   .btn:hover {
-    color: #cd55ed;
-    /* exceeds hover effect */ }
+    /* Exceeds 3) Use a nested selector structure for at least one component. */
+    cursor: pointer;
+    color: black;
+    background-color: yellow; }
 
 .default {
-  background-color: tomato; }
+  background-color: tomato;
+  /* exceeds hover effect */ }
 
 .error {
   background-color: pink; }
@@ -423,10 +425,10 @@ a {
   display: block;
   width: 100%;
   transition: background-color .2s ease-in-out,  color .2s ease-in-out; }
-
-.nav-link:hover {
-  color: black;
-  background-color: yellow; }
+  .nav-link:hover {
+    /* Exceeds 3) Use a nested selector structure for at least one component. */
+    color: black;
+    background-color: yellow; }
 
 /* ============================================= */
 /*              Images                           */

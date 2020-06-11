@@ -18,9 +18,8 @@
   transition: 
     background-color .2s ease-in-out, 
     color .2s ease-in-out;
-}
-
-.nav-link:hover {
-  color: $color-black;
-  background-color: $nav-hover;
+  &:hover {                     /* Exceeds 3) Use a nested selector structure for at least one component. */
+    color: $color-black;
+    background-color: $nav-hover;
+  }
 }

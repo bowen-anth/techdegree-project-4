@@ -6,18 +6,22 @@
   margin-top: 15px;
   width: 100%;
   color: #fff;
-  color-background: $color-button; /* exceeds hover effect */
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
-  &:hover {
-    color: $color-light;          /* exceeds hover effect */
+  transition:
+  background-color .2s ease-in-out, 
+  color .2s ease-in-out;
+  &:hover {                     /* Exceeds 3) Use a nested selector structure for at least one component. */
+    cursor: pointer;
+    color: $color-black;
+    background-color: $nav-hover;
   }
 }
 
 .default {
-  background-color: $color-primary;
+  background-color: $color-primary; /* exceeds hover effect */
 }
 
 .error {
