@@ -10,9 +10,7 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
-  transition:
-  background-color .2s ease-in-out, 
-  color .2s ease-in-out;
+  transition: ease-in 1s;       /* exceeds hover effect */
   &:hover {                     /* Exceeds 3) Use a nested selector structure for at least one component. */
     cursor: pointer;
     color: $color-black;
